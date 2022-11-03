@@ -1,3 +1,3 @@
-import faic_toolbox.datalake
+from . import datalake
 
 __version__ = "dev"
