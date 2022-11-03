@@ -12,3 +12,7 @@ notebook/
 *.zip
 *.pem
 *.Identifier
+build/*
+*/__pycache__/*
+__pycache__
+*.pyc
