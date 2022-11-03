@@ -1,3 +1,3 @@
 from .config import DatalakeConfig
-from . import pandas_utils as pandas
-from . import models as models
+import faic_toolbox.datalake.pandas_utils as pandas
+import faic_toolbox.datalake.models as models
