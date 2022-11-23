@@ -1,1 +1,1 @@
-import faic_toolbox.timeseries.timeseries import Timeserie
+from faic_toolbox.timeseries.timeseries import Timeserie
