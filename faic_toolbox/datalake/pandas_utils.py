@@ -28,6 +28,7 @@ def dataframe_from_datalake(
     from .config import datalake
 
     assert datalake is not None, "no datalake config found"
+    # Get a presigned url from s3
     get_url_endpoint = (
         f"{datalake.base_url}/{layer}/{source_type}/{source_name}/{ts}/{table}"
     )
